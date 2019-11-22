@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiWS", "MiWS\MiWS.csproj", "{8CBEEA15-7324-406C-9B12-06CAA7594B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClienteWS", "ClienteWS\ClienteWS.csproj", "{E7D229F6-CB1E-4D65-9532-8D5DBCA8E0A0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CBEEA15-7324-406C-9B12-06CAA7594B18} = {8CBEEA15-7324-406C-9B12-06CAA7594B18}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBEEA15-7324-406C-9B12-06CAA7594B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBEEA15-7324-406C-9B12-06CAA7594B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBEEA15-7324-406C-9B12-06CAA7594B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBEEA15-7324-406C-9B12-06CAA7594B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D229F6-CB1E-4D65-9532-8D5DBCA8E0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D229F6-CB1E-4D65-9532-8D5DBCA8E0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D229F6-CB1E-4D65-9532-8D5DBCA8E0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D229F6-CB1E-4D65-9532-8D5DBCA8E0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BFAC20A-B2A4-487C-AFF2-0131EDE9330B}
+	EndGlobalSection
+EndGlobal
